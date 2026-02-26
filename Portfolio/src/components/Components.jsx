@@ -2,7 +2,7 @@ import { experience } from "../data/content";
 
 function Components() {
   return (
-    <section className="py-16">
+    <section className="py-16 border-b border-neutral-800">
       <h2 className="text-2xl font-light text-neutral-100 mb-8">Software Experience</h2>
       <div className="space-y-10">
         {experience.map((job, i) => (

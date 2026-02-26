@@ -62,11 +62,52 @@ export const projects = [
   },
 ];
 
+export const personal = {
+  heading: "Technicalitys aside",
+  bio: "I enjoy lifting weights, cardio, TV, Games. Just hard tasks in general to sharpen my grit and discipline, and sophisticated media to challenge critical thinking and personal philosophies.",
+  hobbies: [
+    {
+      name: "Weight Lifting",
+      images: [
+        { src: "/Images/gym.jpeg", alt: "Gym" },
+      ],
+    },
+    {
+      name: "Cardio(boxing)",
+      images: [
+        { src: "/Images/redline.png", alt: "Redline" },
+      ],
+    },
+    {
+      name: "My Top 5 Games",
+      images: [
+        { src: "/Images/num1game.webp", alt: "Cyberpunk 2077" },
+        { src: "/Images/gamenum2.jpg", alt: "Sekiro" },
+        { src: "/Images/gamenum3.jpg", alt: "Forza Horizon 1" },
+        { src: "/Images/num4game.webp", alt: "Dark Souls II" },
+        { src: "/Images/num5game.jpg", alt: "Undertale" },
+      ],
+      list: ["Cyberpunk 2077", "Sekiro", "Forza Horizon 1", "Dark Souls II", "Undertale"],
+    },
+    {
+      name: "My Top 5 TV",
+      images: [
+        { src: "/Images/num1tv.jpg", alt: "Mr. Robot" },
+        { src: "/Images/num2tv.jpg", alt: "Breaking Bad" },
+        { src: "/Images/num3tv.jpg", alt: "Person of Interest" },
+        { src: "/Images/num4tv.webp", alt: "Severance" },
+        { src: "/Images/num5tv.jpg", alt: "Pantheon" },
+      ],
+      list: ["Mr. Robot", "Breaking Bad", "Person of Interest", "Severance", "Pantheon"],
+    },
+  ],
+};
+
 export const links = {
   github: "https://github.com/Andrew-Zhang-Repository",
   linkedin: "https://www.linkedin.com/in/andrew-zhang-544b16296/",
   resumeUrl: "/Resume.pdf",
   email: "andrewzhang0313@icloud.com",
   phone1: "(+61) 420 622 654", 
-  phone2: "(64) 21 081 50813"
+  phone2: "(+64) 21 081 50813"
 };
