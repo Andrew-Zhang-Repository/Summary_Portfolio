@@ -34,18 +34,6 @@ function Footer() {
         >
           Email
         </a>
-        <a
-          href={`tel:${links.phone1}`}
-          className="text-neutral-300 hover:text-neutral-100 transition-colors"
-        >
-          Australia Phone
-        </a>
-        <a
-          href={`tel:${links.phone2}`}
-          className="text-neutral-300 hover:text-neutral-100 transition-colors"
-        >
-          New Zealand Phone
-        </a>
       </div>
     </footer>
   );

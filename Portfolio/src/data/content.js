@@ -2,9 +2,9 @@ export const profile = {
   name: "Andrew Zhang",
   title: "Software Engineer || Software Developer",
   summary:
-    `Coding never fasciniated me that much in the traditional sense. 
+    `Coding never fasciniated me that much in the traditional sense like algorithms and code performance. 
     But in terms of building I've always loved designing and building things from the ground up. 
-    Which I now reflect in my software developer goals.`,
+    Which I now reflect in my software engineering and developing goals.`,
 };
 
 export const experience = [
@@ -25,8 +25,10 @@ export const experience = [
     dates: "November 2025 - January 2026",
     bullets: [
       "Built cross-platform compatible apps for iOS and Android",
-      "Architected pipelining tests for CI/CD",
-      "Token storage, and security management for sensitive environment variables"
+      "Implemented pipelining tests for CI/CD",
+      "Token storage, and security management for sensitive environment variables",
+      "Designed scalable and modernised tech stacks"
+
     ],
   },
 ];
