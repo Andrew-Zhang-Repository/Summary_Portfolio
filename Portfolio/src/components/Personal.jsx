@@ -47,7 +47,7 @@ function Personal() {
                 </ol>
               )}
               {hobby.images && (
-                <span className="text-xs text-neutral-400">
+                <span className="text-xs text-neutral-200">
                   {hobby.images.length} {hobby.images.length === 1 ? "photo" : "photos"}
                 </span>
               )}
