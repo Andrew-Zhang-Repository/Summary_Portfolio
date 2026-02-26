@@ -25,11 +25,11 @@ function Personal() {
 
       <div className="flex flex-col gap-6">
         {personal.hobbies.map((hobby, i) => (
-          <div key={i} className="flex gap-6 items-start">
+          <div key={i} className="flex flex-col md:flex-row gap-6 items-start">
             {/* Button */}
             <button
               onClick={() => toggle(i)}
-              className={`w-[280px] h-[374px] px-6 text-left border-2 transition-colors shrink-0 flex flex-col justify-between py-6 ${
+              className={`w-full md:w-[280px] h-auto md:h-[374px] px-6 text-left border-2 transition-colors md:shrink-0 flex flex-col justify-between py-6 ${
                 active.has(i)
                   ? "border-white text-white"
                   : "border-neutral-300 text-neutral-200 hover:border-white hover:text-white"
@@ -57,7 +57,7 @@ function Personal() {
             {active.has(i) && (
               <div className={`min-w-0 ${hobby.images && hobby.images.length > 1 ? "flex-1" : ""}`}>
                 {hobby.images && hobby.images.length === 1 && (
-                  <div className="w-[280px] h-[374px] overflow-hidden bg-neutral-600">
+                  <div className="w-full md:w-[280px] aspect-[3/4] md:aspect-auto md:h-[374px] overflow-hidden bg-neutral-600">
                     <img
                       src={hobby.images[0].src}
                       alt={hobby.images[0].alt}
@@ -67,11 +67,11 @@ function Personal() {
                 )}
 
                 {hobby.images && hobby.images.length > 1 && (
-                  <div className="flex gap-2 h-[374px]">
+                  <div className="grid grid-cols-2 md:flex gap-2 md:h-[374px]">
                     {hobby.images.map((img, j) => (
                       <div
                         key={j}
-                        className="flex-1 overflow-hidden bg-neutral-600"
+                        className="overflow-hidden bg-neutral-600 aspect-[3/4] md:aspect-auto md:flex-1 md:h-full"
                       >
                         <img
                           src={img.src}
