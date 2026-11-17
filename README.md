@@ -12,6 +12,7 @@ via cloudfront pages indefinitely (link above).
 ```bash
 # Needs node package manager first
 cd ./Portfolio
+npm install
 npm run dev 
 ```
 ---
