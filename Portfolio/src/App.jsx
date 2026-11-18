@@ -1,28 +1,27 @@
-import Summary from "./components/Summary";
-import Components from "./components/Components";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import ResumeIntro from "./components/ResumeIntro";
+import Education from "./components/Education";
+import Experience from "./components/Experience";
 import Projects from "./components/Projects";
-import Personal from "./components/Personal";
-import Footer from "./components/Footer";
+import Certificates from "./components/Certificates";
+import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <div className="bg-neutral-950 text-neutral-100">
-        <main className="max-w-5xl mx-auto px-6">
-          <Summary />
-          <Components />
-          <Projects />
-        </main>
-      </div>
-
-      <div className="h-32 bg-gradient-to-b from-neutral-950 to-[#828282]" />
-
-      <div className="bg-[#828282] text-neutral-900">
-        <main className="max-w-5xl mx-auto px-6">
-          <Personal />
-          <Footer />
-        </main>
-      </div>
+    <div className="min-h-screen bg-slate-50 text-slate-900">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <ResumeIntro />
+        <Education />
+        <Experience />
+        <Certificates />
+        <Projects />
+        <Contact />
+      </main>
     </div>
   );
 }
