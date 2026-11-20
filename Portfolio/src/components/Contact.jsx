@@ -9,9 +9,7 @@ function Contact() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="max-w-4xl">
           <h2 className="text-3xl md:text-4xl font-semibold mb-4">Contacts</h2>
-          <p className="text-slate-200 mb-10">
-            Get in touch via phone, email, or LinkedIn.
-          </p>
+         
           <div className="flex flex-col md:flex-row md:flex-wrap gap-8 md:gap-12">
             <div>
               <p className="text-sm uppercase tracking-wide text-slate-300 mb-2">Phone</p>
